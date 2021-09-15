@@ -13,27 +13,45 @@
       <h1>This is the calculator you have looked for</h1>
       <div class="icon"></div>
     </header>
-    <form action="">
-      <label for="side-a">
-        <span>Side A</span>
-        <input id="side-a" type="number" placeholder="Only numbers" />
-      </label>
+    <section class="data">
+      <form action="" class="inputTriangle">
+        <label for="side-a" class="inputTriangle-getData">
+          <span>Side A</span>
+          <input id="side-a" type="number" placeholder="Only numbers" />
+        </label>
 
-      <label for="side-b">
-        <span>Side B</span>
-        <input id="side-b" type="number" placeholder="Only numbers" />
-      </label>
+        <label for="side-b" class="inputTriangle-getData">
+          <span>Side B</span>
+          <input id="side-b" type="number" placeholder="Only numbers" />
+        </label>
 
-      <label for="side-c">
-        <span>Side C</span>
-        <input id="side-c" type="number" placeholder="Only numbers" />
-      </label>
-      <button type="button" onclick="getSides()">Calculate</button>
-    </form>
+        <label for="side-c" class="inputTriangle-getData">
+          <span>Side C</span>
+          <input id="side-c" type="number" placeholder="Only numbers" />
+        </label>
+        <button type="button" onclick="getSides()">Calculate</button>
+      </form>
 
-    <div class="result">
-      <span id="answer"></span>
-    </div>
+      <div class="result">
+        <span id="answer"></span>
+      </div>
+    </section>
+    <section>
+      <label for="">
+        <h3>Perimeter</h3>
+        <span></span>
+      </label>
+      <label for="">
+        <h3>Area</h3>
+        <span></span>
+      </label>
+      <label for="">
+        <h3>Angles</h3>
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </section>
 
     <script src="../js/index.js"></script>
   </body>
