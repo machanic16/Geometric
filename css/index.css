@@ -34,7 +34,6 @@ header {
 }
 
 .figures {
-  display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 0 1rem 3rem;
@@ -44,6 +43,21 @@ header {
   color: var(--text);
   width: 80%;
   margin: 0 1rem 1rem;
+}
+
+.shape {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-tex-area);
+  border-radius: 10px;
+  height: 9rem;
+  padding-top: 1.5rem;
+}
+
+.shape h2 {
+  width: auto;
+  padding-top: 2rem;
 }
 
 .shape img {
