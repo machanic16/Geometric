@@ -1,0 +1,88 @@
+:root {
+  --background: #05113b;
+  --background-button: #4acfee;
+  --background-tex-area: #0d3257;
+  --text: #858783;
+  --text-button: #474846;
+  --font-text: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 3rem;
+  font-family: sans-serif;
+  background-color: var(--background);
+}
+
+.data {
+  background-color: var(--background-tex-area);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.data h1 {
+  color: var(--text);
+  text-align: center;
+}
+
+.inputTriangle {
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: auto;
+}
+
+.inputTriangle-getData {
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.inputTriangle-getData input {
+  display: block;
+  -moz-appearance: textfield;
+  border: none;
+  width: 15rem;
+  height: 2.3rem;
+  background-color: #3cbc8d;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.inputTriangle-getData span {
+  font-size: 1.5rem;
+  color: var(--text);
+}
+
+.answers label span {
+  background-color: var(--background-tex-area);
+  display: inline-block;
+  font-size: 2.5rem;
+  width: auto;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.answers {
+  color: var(--text);
+}
+
+.answers--answer {
+  padding-left: 2rem;
+  font-size: 1.5rem;
+}

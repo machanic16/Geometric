@@ -33,6 +33,22 @@ header {
   position: relative;
 }
 
+header a {
+  display: inline-block;
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+header a:visited {
+  color: var(--text);
+  text-decoration: none;
+}
+
+header a:link {
+  text-decoration: none;
+}
+
 .figures {
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -77,46 +93,4 @@ menu img {
   width: 2rem;
   height: 2rem;
   margin: 7px 7px;
-}
-
-header h1 {
-  text-align: center;
-}
-
-.data {
-  background-color: var(--background-tex-area);
-  border-radius: 10px;
-  margin-bottom: 3rem;
-  margin-top: 2rem;
-}
-
-.inputTriangle {
-  margin: 0 auto;
-  width: 70%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  height: auto;
-}
-
-.inputTriangle-getData {
-  display: block;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-
-.inputTriangle-getData input {
-  display: block;
-  -moz-appearance: textfield;
-  border: none;
-  width: 15rem;
-  height: 2.3rem;
-  background-color: #3cbc8d;
-  color: white;
-  border-radius: 5px;
-  font-size: 1.5rem;
-}
-
-.inputTriangle-getData span {
-  font-size: 1.5rem;
-  color: var(--text);
 }
