@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Geometric | Math</title>
+    <title>Circle | Geometric</title>
     <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/circle.css" />
+    <link rel="stylesheet" href="../css/triangle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,20 +27,33 @@
       <a href="./index.html">Geometric saver.</a>
       <div class="icon"></div>
     </header>
-    <section class="figures">
-      <h2>Which figure do you want to calculate?</h2>
+    <section class="data" id="dataa">
+      <h1>Circle calculator</h1>
+      <form action="" class="dataColector">
+        <label for="radio" class="dataColector-getData">
+          <span>Radio</span>
+          <input id="radio" type="number" placeholder="Only numbers" />
+        </label>
 
-      <div class="shape circle">
-        <h2>Circle</h2>
-        <a href="./circle.html"><img src="../icons/circle.png" alt="" /></a>
+        <button type="button" onclick="getSides()">Calculate</button>
+      </form>
+
+      <div class="result">
+        <span id="answer"></span>
       </div>
-      <div class="shape triangle">
-        <h2>Triangle</h2>
-        <a href="./triangle.html"><img src="../icons/triangle.png" alt="" /></a>
+    </section>
+    <section class="answers">
+      <label for="">
+        <span>Perimeter:</span>
+      </label>
+      <div class="answers--answer">
+        <span id="perimeter">respuesta Perimeter</span>
       </div>
-      <div class="shape square">
-        <h2>Square</h2>
-        <a href="#"><img src="../icons/square.png" alt="" /></a>
+      <label for="">
+        <span>Area:</span>
+      </label>
+      <div class="answers--answer">
+        <span id="area">respuesta area</span>
       </div>
     </section>
   </body>

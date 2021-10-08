@@ -37,7 +37,7 @@ body {
   text-align: center;
 }
 
-.inputTriangle {
+.dataColector {
   margin: 0 auto;
   width: 70%;
   padding-top: 1rem;
@@ -45,13 +45,13 @@ body {
   height: auto;
 }
 
-.inputTriangle-getData {
+.dataColector-getData {
   display: block;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
 
-.inputTriangle-getData input {
+.dataColector-getData input {
   display: block;
   -moz-appearance: textfield;
   border: none;
@@ -63,7 +63,7 @@ body {
   font-size: 1.5rem;
 }
 
-.inputTriangle-getData span {
+.dataColector-getData span {
   font-size: 1.5rem;
   color: var(--text);
 }
