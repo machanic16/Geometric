@@ -91,11 +91,11 @@ function calculate() {
   if (isTriangle(sideA, sideB, sideC)) {
     // calculate the perimeter
     perimeter = perimeterTriangel(sideA, sideB, sideC);
-    perimeterField.innerText = perimeter;
+    perimeterField.innerText = perimeter.toFixed(2);
 
     //calculate de area
     area = areaValue(sideA, sideB, sideC);
-    areaField.innerText = area;
+    areaField.innerText = area.toFixed(2);
 
     // calculate angles for the triangle
     oppositeToA = angleBetween(sideB, sideC, sideA);
